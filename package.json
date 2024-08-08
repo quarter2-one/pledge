@@ -1,0 +1,22 @@
+{
+  "name": "pledge",
+  "version": "1.0.0",
+  "description": "Like a promise, but similar.",
+  "main": "pledge.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon  test/test.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "Promise",
+    "Pledge"
+  ],
+  "author": "Richard J. Glanvill <quarter2-one@yahoo.com> (http://quarter2.one)",
+  "license": "ISC",
+  "devDependencies": {
+    "taste-test": "^0.1.1"
+  }
+}

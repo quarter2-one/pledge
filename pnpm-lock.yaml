@@ -1,0 +1,29 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      taste-test:
+        specifier: ^0.1.1
+        version: 0.1.1
+
+packages:
+
+  cmd-colour@1.0.0:
+    resolution: {integrity: sha512-oi3GIkTurSnxOsZWuCcd+dCSAfz42UJ5v+Oa0VmLyywqlLlYWUx79zLLs8uPUkTmbD04r5HWgXY+huseSh7zZw==}
+
+  taste-test@0.1.1:
+    resolution: {integrity: sha512-Kf7a9c/SHFqff8hjZtMxWKoeTXsKTwwf7wzX65qEXNnUC6TZUglk5l3SB0uszu8KZ1fmAIRwCLoNspKKHTs4oQ==}
+
+snapshots:
+
+  cmd-colour@1.0.0: {}
+
+  taste-test@0.1.1:
+    dependencies:
+      cmd-colour: 1.0.0
